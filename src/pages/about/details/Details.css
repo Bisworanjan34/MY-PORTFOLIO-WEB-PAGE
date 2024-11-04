@@ -1,0 +1,18 @@
+.details-div ul{
+    color: rgb(255, 0, 255);
+}
+.details-div ul li {
+    margin-bottom: 13px;
+    padding: 2px;
+}
+<<<<<<< HEAD
+.d-title{
+    font-family: "Playwrite AU QLD", cursive;
+    font-weight: bold;
+}
+=======
+.details-div .d-title{
+    font-family: "Playwrite AU QLD", cursive;
+    font-weight: bold;
+}
+>>>>>>> 3705b6af07e21c711f25b6c60b01972bb3afc017

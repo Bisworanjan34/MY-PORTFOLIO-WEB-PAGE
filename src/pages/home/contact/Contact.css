@@ -1,0 +1,150 @@
+.contact-div p{
+    /* font-family: "Outfit", sans-serif; */
+    /* font-family: "Oleo Script", system-ui; */
+     font-family:  "Edu AU VIC WA NT Guides", cursive;
+}
+.contact-main{
+    min-height: 100vh;
+    /* background-color: red; */
+}
+.contact-div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 33px;
+    margin-top: 4rem;
+}
+.message-cont{
+  display: flex;
+  justify-content: center;
+  /* max-height: fit-content; */
+}
+.talk{
+  width: 500px;
+  height: 100%;
+}
+.sec-1{
+    width: 380px;
+    /* border: 1px solid; */
+}
+.talk .sec-1 h1{
+    background-image: linear-gradient(
+       to right,
+        rgb(255, 0, 247),
+        rgb(255, 255, 255)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+.talk .talk-p{
+    font-size: 15px;
+    color: rgb(255, 0, 255);
+}
+.sec-1 p{
+    font-size: 15px;
+}
+.message{
+    width: 500px;
+    height: 100%;
+}
+.sec-2 {
+    width: 380px;
+    /* border: 1px solid ; */
+}
+.sec-2 h1{
+    background-image: linear-gradient(
+        to right,
+         rgb(255, 0, 247),
+         rgb(255, 255, 255)
+       );
+       background-clip: text;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+     font-weight: bold;
+}
+.sec-2 label{
+    font-size: 13px;
+     margin-bottom: 13px;
+}
+.sec-2 input{
+    height: 40px;
+    width: 100%;
+    padding: 1px 10px;
+    margin-bottom: 10px;
+    background-color: rgba(254, 1, 237, 0.283);
+    border: none;
+    color: rgb(253, 175, 250);
+}
+.sec-2 input:focus{
+    outline: 1px solid rgb(255, 0, 255);
+}
+::placeholder{
+    color: rgba(154, 153, 154, 0.874);
+}
+.sec-2 .yourm{
+    /* height: 150px; */
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+}
+.sec-2 .yourm::placeholder{
+    margin-top: 30px;
+}
+.sec-2 button{
+    border: 1px solid rgb(255, 0, 255);
+    background-color: black;
+    height: 35px;
+    width: 380px;
+    border-radius:6px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+.sec-2 button:hover{
+    background-color: rgba(188, 0, 194, 0.486);
+    color: rgb(252, 251, 252);
+}
+.sec-2 button:active{
+    transform: scale(0.9);
+}
+@media screen and (max-width:1084px){
+    .message-cont{
+        flex-direction: column;
+        align-items: center;
+       
+       gap: 1.3rem;
+    }
+    .talk{
+        width: 380px;
+       }
+       .message{
+        width: 380px;
+       }
+}
+@media screen and (max-width:570px){
+   .talk{
+    width: 380px;
+   }
+   .message{
+    width: 380px;
+   }
+}
+@media screen and (max-width:434px){
+    .talk{
+        width: 300px;
+    
+       }
+       .sec-1{width:300px;}
+   .message{
+    width: 300px;
+
+   }
+   .sec-2{width:100%;}
+   .sec-2 button{width: 100%;}
+}
+@media screen and (max-width:513px){
+    .contact-div{
+        flex-direction: column;
+        
+    }
+}

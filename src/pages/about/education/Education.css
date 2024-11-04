@@ -1,0 +1,18 @@
+.educations{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.educations dt{
+    border: 2px solid rgb(255, 0, 247);
+   padding: 6px 15px;
+   width: 180px;
+   background-color: rgb(189, 0, 182);
+   color: white;
+   border-radius: 20px;
+   margin: 13px 0;
+   box-shadow: 0 0 10px 5px rgb(255, 0, 247);
+}
+.education-div{
+    height: 100vh;
+}

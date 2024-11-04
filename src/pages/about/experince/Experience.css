@@ -1,0 +1,8 @@
+.experience-div p{
+    color: rgb(255, 0, 247);
+    word-spacing: 2px;
+    line-height: 30px;
+}
+.experience-div{
+    height: 100vh;
+}

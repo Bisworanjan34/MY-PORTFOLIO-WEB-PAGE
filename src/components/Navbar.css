@@ -1,0 +1,101 @@
+.nav-main{
+  z-index:5;
+  height: 70px; 
+}
+.active-nav{
+  box-shadow: 0 0 60px 23px rgb(255, 0, 238);
+  border-bottom: 2px solid rgb(255, 0, 225);
+  transition: all 0.8s ease-in-out;
+}
+
+.navLactive{
+  color: rgb(255, 0, 251) !important;
+  font-weight: bold !important;
+ 
+  
+}
+
+.nav-logo-t h5 {
+ 
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 22px;
+  color:white;
+  
+
+}
+.links{
+  margin:auto;
+  width: 300px;
+  font-family: "Playwrite AU QLD", cursive;
+  font-size: 14px;
+  align-items: center;
+}
+.links p{margin-top: 10px;}
+.links h5{font-size: 15px;font-weight: bold;}
+.nav-logo-t h5{
+  font-family: "Lobster", sans-serif;
+  letter-spacing: 1px;
+  /* font-family: "Playwrite AU QLD", cursive; */
+}
+.nav-logo-t h5 span{
+  color: rgb(255, 0, 255);
+  font-size: 30px;
+  
+}
+.toogle-div{
+  height: 18px;width: 40px;
+  border: 1.4px solid rgb(255, 0, 247);
+  /* background: rgba(231, 231, 231, 0.916); */
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  transition: all 0.7s ease-in-out;
+  cursor: pointer;
+}
+.toggle{
+  height: 14px;width: 14px;
+  margin-left: 2px;
+  border: 2px solid rgb(255, 255, 255);
+  background:rgba(231, 231, 231, 0.916);
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.active{
+  /* background-color: rgb(248, 0, 232); */
+  background-image: linear-gradient(to right, rgb(151, 0, 151),white);
+  transition: background 0.7s ease-in-out;
+}
+.active .toggle{
+  transform: translateX(20px);
+  background: rgb(255, 255, 255);
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width:770px){
+  .links h5, p{font-size: 12px;}
+  .nav-logo-t h5{font-size: 14px;}
+ 
+}
+
+
+@media screen and (max-width:578px) {
+  .links p{font-size: 11px;}
+  .links h5{font-size: 11px;}
+  .links{width: 200px;}
+  .toggle-main{width: 80px;}
+  /* .links p{align-items:center} */
+  .nav-logo-t h5{font-size: 13px;margin-left: 2rem;}
+  
+  
+}
+@media screen and (max-width:403px){
+  .links p{font-size: 9px;}
+  .links h5{font-size: 9px;}
+  .links{width: 168px;}
+  .nav-logo-t{margin-left: -23px;}
+  .toggle-main{width: 60px;}
+ 
+}

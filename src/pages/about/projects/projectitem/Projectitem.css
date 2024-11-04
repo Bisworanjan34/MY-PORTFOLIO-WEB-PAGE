@@ -1,0 +1,26 @@
+.project-d{
+    background: rgba(251, 0, 255, 0.219);
+    transition: all 0.4s ease-in-out; 
+    border: 1px solid rgb(255, 0, 255);
+    height: 200px;width: 300px;
+    margin-left: -15px;
+
+}
+.project-d:hover{
+    background-image:linear-gradient(to right,rgb(255, 251, 0),rgb(214, 2, 214));
+    transform:scale(1.06);
+}
+.p-img .p-i{
+    width: 100%;
+    height: 140px;
+
+}
+@media screen and (max-width:405px){
+    .project-d {
+        height: 150px;
+        width:250px;
+    }
+    .p-img .p-i{
+        height:100px ;
+    }
+}

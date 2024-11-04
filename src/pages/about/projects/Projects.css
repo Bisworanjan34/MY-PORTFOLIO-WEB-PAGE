@@ -1,0 +1,15 @@
+.projects-div p{
+    color:  rgb(255, 0, 255);
+}
+.projects-div h5{
+    color:  rgb(255, 0, 255);
+    padding: 10px;
+}
+.all-projects{
+    margin: 20px ;
+}
+.all-projects ul li{
+    color: rgb(255, 0, 255);
+    margin-bottom: 10px;
+    padding: 5px ;
+}
