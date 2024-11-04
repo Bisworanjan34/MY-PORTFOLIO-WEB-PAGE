@@ -17,7 +17,7 @@ let projectData=[
         title:'My-profile',
         image:img1,
         bgimg:'linear-gradient(to right,rgb(255, 251, 0),rgb(214, 2, 214))',
-        plink:'https://updateportfoliio-1oc13.vercel.app/'
+        plink:'https://my-portfolio-web-page.vercel.app/'
     },
     {     id:2,
         title:'Whatsapp',
@@ -37,7 +37,7 @@ let projectData=[
     {    id:5,
         title:'My-portfolio',
         image:img13,
-         plink:'https://updateportfoliio-1oc13.vercel.app/'
+         plink:'https://my-portfolio-web-page.vercel.app/'
     },
     {    id:6,
         title:'Form-login-page',
