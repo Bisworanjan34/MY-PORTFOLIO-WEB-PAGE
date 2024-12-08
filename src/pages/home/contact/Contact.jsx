@@ -44,6 +44,9 @@ const Contact = () => {
               <FontAwesomeIcon icon={faPhoneVolume} className='tpurple me-2'/>
               +91-8917377258</p>
             <p>
+              <FontAwesomeIcon icon={faPhoneVolume} className='tpurple me-2'/>
+              +91-7978092266</p>
+            <p>
               <FontAwesomeIcon icon={faLocationDot} className='tpurple me-2'/>
               india</p>
             </div>
@@ -88,6 +91,7 @@ const Contact = () => {
      <p className='text-center'>Conditions of Use & 
          Privacy NoticeInterest-Based Ads</p>
     <p className='text-center'> © 1996-2024,Profile.com, Inc.</p>
+    <p className='text-center'> Made by <b className='tpurple'>Bisworanjan</b></p>
     </div>
   )
 }

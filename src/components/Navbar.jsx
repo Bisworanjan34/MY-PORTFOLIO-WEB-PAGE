@@ -29,7 +29,7 @@ const Navbar = ({imgref,reactlogo,hireRef,animRef}) => {
                 </div>
               </div>
             <div className="col-5 col-md-4 col-sm-4 mt-2 d-flex gap-lg-4 gap-md-2 gap-2 links ">
-                <NavLink to={'/'} className={({isActive})=>(isActive? 'navLactive':'')}><h5>Home</h5></NavLink>
+                <NavLink to={'/'} className={({isActive})=>(isActive? 'navLactive f-bold':'')}><h5>Home</h5></NavLink>
                 <NavLink to={'/about'}className={({isActive})=>(isActive? 'navLactive':'')}><p>About</p></NavLink>
                 <NavLink to={'/contact'}className={({isActive})=>(isActive? 'navLactive':'')}><p>Contact</p></NavLink>
                 <NavLink to={'/service'}className={({isActive})=>(isActive? 'navLactive':'')}><p>Service</p></NavLink>
@@ -42,6 +42,7 @@ const Navbar = ({imgref,reactlogo,hireRef,animRef}) => {
             </div>
             <audio src={toggleaudio} ref={toggleaudioRef}></audio>
              </div>
+             
     </div>
     </div>
   )
