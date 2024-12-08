@@ -116,14 +116,15 @@ grid-template-columns: 1fr 1fr;
 .name-div .btn1 {
   /* border: 1px solid rgb(255, 0, 247); */
   /* box-shadow: 0 0 10px 3px rgb(255, 0, 247); */
-  background: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  padding: 3px 17px;
-  border:none;
-  /* border: none; */
+  background: rgba(255, 255, 255, 0.352);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-left: 2px solid rgb(249, 0, 212);
   border-radius: 5px;
   margin-right: 10px;
   transition: all 0.2s ;
+  padding: 6px 28px;
+  font-size: 12px;
 }
 .name-div .btn1:focus{
   transform: scale(0.9);
@@ -131,14 +132,16 @@ grid-template-columns: 1fr 1fr;
 .name-div .btn2 {
   background: rgba(206, 0, 206, 0.516);
   color: white;
-  padding: 3px 17px;
-  border: 1.4px solid rgb(255, 0, 191);
+  border: none;
+  border-right: 2px solid rgb(249, 0, 212);
   border-radius: 5px;
   margin-right: 10px;
   transition: all 0.2s;
+  padding: 6px 28px;
+  font-size: 12px;
 }
 .name-div .btn1:hover {
-  background: rgb(243, 243, 243);
+  background: rgba(255, 0, 212, 0.374);
   /* color: rgb(255, 0, 255); */
 }
 .name-div .btn2:focus{
@@ -284,25 +287,26 @@ grid-template-columns: 1fr 1fr;
 
 .active-hire {
   animation: hire 2s linear infinite;
-  transition: all 0.5s ease-in-out;
+  /* transition: all 0.5s ease; */
+ 
 }
 
 @keyframes hire {
   0% {
     transform: scale(1);
-    background-image: linear-gradient(to right, rgb(122, 0, 122),
-    rgb(255, 0, 230));
+   background-color: rgb(255, 0, 200);
     color: white;
   }
   50% {
     transform: scale(1.15);
+    background-color: rgba(172, 0, 172, 0.502);
     color: white;
    
   }
   100% {
     transform: scale(1);
-    background-image: linear-gradient(to right,  rgb(240, 0, 240),
-    rgb(141, 0, 127));
+   background-color: rgb(255, 0, 200);
+
     color: rgb(254, 254, 254);
   }
 }

@@ -5,14 +5,19 @@
     margin-bottom: 13px;
     padding: 2px;
 }
-<<<<<<< HEAD
-.d-title{
-    font-family: "Playwrite AU QLD", cursive;
-    font-weight: bold;
-}
-=======
 .details-div .d-title{
-    font-family: "Playwrite AU QLD", cursive;
+    /* font-family: "Playwrite AU QLD", cursive; */
     font-weight: bold;
 }
->>>>>>> 3705b6af07e21c711f25b6c60b01972bb3afc017
+.skill-list{
+    padding:25px 36px;
+    background-color: rgba(255, 1, 255, 0.306);
+    border:1px solid rgb(255, 0, 255);
+}
+.skill-list li{
+    color: white;
+   height: 40px;
+   border-bottom: 1px solid rgb(255, 0, 255);
+   list-style: none;
+   
+}

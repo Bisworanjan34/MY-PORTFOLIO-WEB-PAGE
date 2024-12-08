@@ -16,3 +16,11 @@
 .education-div{
     height: 100vh;
 }
+.education-div dl{
+  
+        padding:15px 26px;
+        color: white;
+       background-color: rgba(255, 0, 255, 0.352);
+       border: 1px solid rgb(255, 0, 234);
+       border-top: 5px solid rgb(255, 0, 255);
+}

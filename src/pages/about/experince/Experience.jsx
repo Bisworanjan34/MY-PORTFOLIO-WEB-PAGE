@@ -5,8 +5,8 @@ const Experience = () => {
     <div className='experience-div'>
       {/* <h5 className='text-center d-title tpurple'>FRESHER</h5> */}
 
-      <h5 className='twht text-center'>Experience</h5>
-      <ul>
+      <h5 className='twht text-center '>Experience</h5>
+      <ul className='skill-list'>
         
         <li>i have more than 1 year of experience in html,css,bootstrap,tailwind css</li>
         <li>i have more than 7 months of experience in react js</li>
