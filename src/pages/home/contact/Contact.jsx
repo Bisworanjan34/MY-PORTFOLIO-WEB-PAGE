@@ -56,11 +56,11 @@ const Contact = () => {
             <h1>Let's message</h1>
              <form action="" onSubmit={onSubmit}>
                <label>Your Name</label><br />
-               <input type="text"placeholder='Enter your name'name='name' /><br />
+               <input type="text"placeholder='Enter your name'name='name' required /><br />
                <label>Your Email</label><br />
-               <input type="text"placeholder='Enter your email'name='email' /><br />
+               <input type="text"placeholder='Enter your email'name='email'  required/><br />
                <label>write your message here</label><br />
-               <input type="text" placeholder='Enter your message...'className='yourm'name='message' /><br />
+               <input type="text" placeholder='Enter your message...'className='yourm'name='message' required /><br />
                <button type='submit text-white'>Submit</button>
              </form>
           </div>

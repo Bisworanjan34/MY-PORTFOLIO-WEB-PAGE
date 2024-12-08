@@ -59,10 +59,10 @@ grid-template-columns: 1fr 1fr;
   }
 
   50% {
-    color: rgb(2, 255, 255);
+    color: rgb(255, 255, 255);
   }
   75% {
-    color: rgb(0, 247, 255);
+    color: rgb(255, 255, 255);
   }
   100% {
     color: rgb(255, 0, 255);
@@ -114,39 +114,43 @@ grid-template-columns: 1fr 1fr;
   /* font-size: 40px; */
 }
 .name-div .btn1 {
-  /* background-image: linear-gradient(
-    to right,
-    rgb(122, 0, 122),
-    rgb(255, 0, 230)
-  ); */
-  border: 1px solid rgb(255, 0, 247);
-  box-shadow: 0 0 10px 3px rgb(255, 0, 247);
-  background: purple;
-  color: white;
+  /* border: 1px solid rgb(255, 0, 247); */
+  /* box-shadow: 0 0 10px 3px rgb(255, 0, 247); */
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 3px 17px;
+  border:none;
   /* border: none; */
-  border-radius: 15px;
+  border-radius: 5px;
   margin-right: 10px;
+  transition: all 0.2s ;
+}
+.name-div .btn1:focus{
+  transform: scale(0.9);
 }
 .name-div .btn2 {
-  background-color: transparent;
+  background: rgba(206, 0, 206, 0.516);
   color: white;
   padding: 3px 17px;
-  border: 1.4px solid rgb(244, 0, 232);
-  border-radius: 15px;
+  border: 1.4px solid rgb(255, 0, 191);
+  border-radius: 5px;
   margin-right: 10px;
+  transition: all 0.2s;
 }
 .name-div .btn1:hover {
-  background: none;
-  color: rgb(255, 0, 255);
+  background: rgb(243, 243, 243);
+  /* color: rgb(255, 0, 255); */
+}
+.name-div .btn2:focus{
+  transform: scale(0.9);
 }
 .name-div .btn2:active {
   transform: translate(0.9);
 }
 .name-div .btn2:hover {
-  background: none;
-  color: rgb(255, 0, 255);
-  border: 1.5px solid white;
+  background: rgb(189, 0, 189);
+  color: rgb(255, 255, 255);
+  /* border: 1.5px solid white; */
 }
 .name-div span {
   color: rgb(247, 0, 255);
@@ -288,15 +292,18 @@ grid-template-columns: 1fr 1fr;
     transform: scale(1);
     background-image: linear-gradient(to right, rgb(122, 0, 122),
     rgb(255, 0, 230));
+    color: white;
   }
   50% {
     transform: scale(1.15);
+    color: white;
    
   }
   100% {
     transform: scale(1);
     background-image: linear-gradient(to right,  rgb(240, 0, 240),
     rgb(141, 0, 127));
+    color: rgb(254, 254, 254);
   }
 }
 .profile-cont{
@@ -331,23 +338,21 @@ grid-template-columns: 1fr 1fr;
  
 }
 .anim{
-  animation: imganim 0.3s linear infinite;
+  animation: imganim 0.8s ease infinite;
 }
 
 @keyframes imganim {
   from{
-    border: 3px solid white;
-    border-top: 3px solid rgb(249, 0, 249); 
-    border-top: 10px solid rgb(0, 232, 249);     
-    border-right: 3px solid rgb(232, 249, 0);     
-    border-bottom: 3px solid rgb(4, 0, 249);       
+    border: 7px solid transparent;
+    border-top: 7px solid rgb(255, 255, 255); 
+    border-right: 7px solid rgb(255, 255, 255); 
+    border-bottom: 7px solid rgb(255, 255, 255); 
     transform: rotate(0);
   }
   to{
-    border: 3px solid white;
-    border-top: 3px solid rgb(0, 232, 249);     
-    border-right: 3px solid rgb(232, 249, 0);     
-    border-bottom: 3px solid rgb(4, 0, 249);     
+    border: 7px solid transparent;
+    border-top: 7px solid rgb(255, 255, 255); 
+    border-right: 7px solid rgb(255, 255, 255); 
     transform: rotate(360deg);
   }
 }
