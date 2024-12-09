@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import resume from '../../assets/resume.png'
+import resume from '../../assets/my-resume.pdf'
 import './Service.css'
 import Navbar from '../../components/Navbar'
 import pdata from '../../pages/about/projects/projectitem/projectData'
@@ -24,17 +24,18 @@ const Service = () => {
           }
         </div>
 
-      {/* <div className="container">
+      <div className="container">
         <h5>My-resume</h5>
         <div className="row">
           <div className="col-auto mx-auto py-5">
             <div className="resume">
-            <img src={resume} alt="" />
+            <iframe src={resume} width="100%" height="600px" title="My Resume"></iframe>
+
 
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   )
 }

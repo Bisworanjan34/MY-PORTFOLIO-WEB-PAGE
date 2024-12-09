@@ -1,13 +1,10 @@
 .resume{
    /* border: 5px solid rgb(255, 0, 255);  */
-   height: 400px;
-   width:100%;
+   height: 100%;
+    width: 200vh;
    margin:auto;
-   padding: 3px;
+   padding: 30px;
+   background: rgba(255, 0, 255, 0.425);
    box-shadow: 0 0 10px 7px rgb(255, 0, 255);
 
-}
-.resume img{
-    height: 100%;
-    width: 250px;
 }

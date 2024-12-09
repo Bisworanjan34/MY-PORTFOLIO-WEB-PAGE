@@ -14,7 +14,8 @@ const Details = () => {
       <h5 className='twht'>Key Skills</h5>
 
       <ul className='skill-list'>
-        <li><b>Frontend</b>-: html5,css3,javascript,bootstrap,tailwind css,<b>(reactjs)</b></li>
+        <li><b>Frontend</b>-: html5,css3,javascript,bootstrap,
+        tailwind css,<b>(reactjs)</b></li>
         <li><b>Backend</b> -: basic node js,express js </li>
         <li><b>Database</b>-: basic mongodb (no sql)</li>
         <li><b>Library</b> -: react js,react-router-dom,axios,redux</li>

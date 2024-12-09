@@ -26,6 +26,7 @@
 .outlet-about{
     margin: 16px 0;
     box-shadow: 0 0 10px 2px rgb(255, 0, 255);
+    min-height: 200vh;
 }
 .about-title{
     color: rgb(255, 0, 255);

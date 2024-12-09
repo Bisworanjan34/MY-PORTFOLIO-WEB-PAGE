@@ -16,8 +16,10 @@
 }
 .skill-list li{
     color: white;
-   height: 40px;
+   /* height: 40px; */
    border-bottom: 1px solid rgb(255, 0, 255);
    list-style: none;
+   word-wrap: normal;
+   padding: 1rem 0;
    
 }
