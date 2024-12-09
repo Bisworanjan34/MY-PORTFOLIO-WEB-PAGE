@@ -12,12 +12,12 @@
 .skill-list{
     padding:25px 36px;
     background-color: rgba(255, 1, 255, 0.306);
-    border:1px solid rgb(255, 0, 255);
+    border-left:4px solid rgb(255, 0, 255);
 }
 .skill-list li{
     color: white;
    /* height: 40px; */
-   border-bottom: 1px solid rgb(255, 0, 255);
+   border-bottom: 1px solid rgba(255, 0, 255, 0.694);
    list-style: none;
    word-wrap: normal;
    padding: 1rem 0;
