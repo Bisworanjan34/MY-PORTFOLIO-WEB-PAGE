@@ -93,7 +93,8 @@
 }
 .sec-2 button{
     border: 1px solid rgb(255, 0, 255);
-    background-color: black;
+    background-color: rgb(180, 0, 150);
+    color: aliceblue;
     height: 35px;
     width: 380px;
     border-radius:6px;
