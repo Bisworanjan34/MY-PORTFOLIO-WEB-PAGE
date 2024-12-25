@@ -30,7 +30,7 @@ let projectData=[
         plink:'https://youtube-chi-brown.vercel.app/'
     },
     {   id:4,
-        title:'Ecommerce',
+        title:'LYFESTYLE',
         image:img4,
          plink:'https://life-style-shopping-app.vercel.app/'
     },
