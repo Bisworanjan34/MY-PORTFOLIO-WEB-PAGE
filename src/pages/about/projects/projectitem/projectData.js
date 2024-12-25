@@ -32,7 +32,7 @@ let projectData=[
     {   id:4,
         title:'Ecommerce',
         image:img4,
-         plink:'https://ecommerce-project-59w9.vercel.app/'
+         plink:'https://life-style-shopping-app.vercel.app/'
     },
     {    id:5,
         title:'My-portfolio',

@@ -4,7 +4,7 @@ const Details = () => {
   return (
     <div className='details-div'>
       <h5 className='text-center tpurple d-title'>Profile Summery</h5>
-      <p className='tpurple'>i am a Skilled Frontend React Web Developer specializing in building
+      <p className='tpurple'>i am a Skilled React-Web-Developer specializing in building
         responsive interfaces to enhance user experience. Collaborative
         team player with a strong foundation in JavaScript and modern
         web technologies. Delivers high-quality projects on time with keen

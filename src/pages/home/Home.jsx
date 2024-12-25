@@ -33,7 +33,7 @@ const Home = () => {
                 <h5 className='tpurple display-4 fw-bold profile-name'> Bisworanjan</h5>
                 {/* <p className=' frontend text-white '>Front-end-web-developer </p>   */}
              <marquee behavior="" direction="right">
-             <p className=' frontend text-white '>Front-end-web-developer </p>              
+             <p className=' frontend text-white '>React-web-developer </p>              
              </marquee>
               <div className="div d-flex gap-4 social-icon ">
                <Link to={'https://www.facebook.com/profile.php?id=100089866887504'}><p><FontAwesomeIcon icon={faFacebook}/></p></Link> 
