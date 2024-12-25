@@ -71,9 +71,10 @@
     height: 40px;
     width: 100%;
     padding: 1px 10px;
+    border: none;
     margin-bottom: 10px;
     background-color: rgba(254, 1, 237, 0.283);
-    border: none;
+    border-left:1.3px solid rgb(239, 0, 215) ;
     color: rgb(253, 175, 250);
 }
 .sec-2 input:focus{
