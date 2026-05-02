@@ -7,13 +7,13 @@ const Experience = () => {
 
       <h5 className='twht text-center '>Experience</h5>
       <ul className='skill-list'>
-        
+
         <li>i have more than 2 years of experience in html,css,bootstrap,tailwind css</li>
         <li>i have almost 1 year of experience in react js</li>
-        <li>i have experience in mongodb </li>
-        <li>i have experience in node js </li>
+        <li>i have experience in python </li>
+        <li>i have experience in django </li>
       </ul>
-      <p>Now i am a Fresher web developer in react js but i have worked with lot of projects like ecommerce web page designing and cart functionality & animations i have familarity with css bootstrap tailwind css Javascript i have worked on whatsapp clon design youtube design i know the concept if you will give me chance then i will prove my self am always tryed to do better lear new things  </p>
+      <p>Now i am a Fresher web developer in react js but i have worked with lot of projects like ecommerce web page designing and cart functionality & animations i have familarity with python django DRF css bootstrap tailwind css Javascript i have worked on whatsapp clon design youtube design i know the concept if you will give me chance then i will prove my self am always tryed to do better lear new things  </p>
 
     </div>
   )
